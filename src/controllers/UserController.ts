@@ -1,7 +1,7 @@
-import { User } from '@models/User';
+import User from '@models/User';
 
 export default class UserController {
-  getUser() {
+  static getUser() {
     const user = new User();
 
     return user;
