@@ -16,6 +16,10 @@
     "removeComments": true,                          
     "esModuleInterop": true,                            
     "forceConsistentCasingInFileNames": true,           
-    "skipLibCheck": true                                
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@controllers/*": ["controllers/*"]
+    }                           
   }
 }
